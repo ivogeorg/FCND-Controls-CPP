@@ -5,4 +5,12 @@
 **Note:** The notebooks are in the order of the exercises from the section. The first link is the original exercise, possibly with my solution. The second link is the official solution.
 
 
-1. [Coaxial Drone Dynamics](/notebooks/01-vehicle-dynamics/1.%20Coaxial%20Drone%20Dynamics.ipynb). ([solution](/notebooks/01-vehicle-dynamics/1.%20Coaxial%20Drone%20Dynamics%20SOLUTION.ipynb))  
+1. [Coaxial Drone Dynamics](/notebooks/01-vehicle-dynamics/1-Coaxial-Drone-Dynamics.ipynb). ([solution](/notebooks/01-vehicle-dynamics/1-Coaxial-Drone-Dynamics-SOLUTION.ipynb))  
+2. ...  
+3. ...  
+4. ...  
+5. ...  
+
+**TODO:** Organize 2-5 as well as the alternative material which adopts a different convention on rotational angles and also has some more detail on the process
+
+
