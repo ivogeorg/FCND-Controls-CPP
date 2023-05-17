@@ -9,7 +9,7 @@
 2. [Tracking Changes to State (RECORDING)](/notebooks/01-vehicle-dynamics/1.5-Tracking-Changes-to-State-RECORDING.ipynb).
 3. [Advance State for Controlled Drone (Propellers Rotating)](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone.ipynb). ([solution](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone-SOLUTION.ipynb))
 4. [Advance State for Controlled Drone (Propellers Rotating) With State Vectors](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone-with-State-Vectors.ipynb). 
-5. [Uncontrolled Drone]().
+5. [Uncontrolled Drone](/notebooks/01-vehicle-dynamics/3-Uncontrolled-2D-Drone.ipynb). ([solution](/notebooks/01-vehicle-dynamics/3-Uncontrolled-2D-Drone-SOLUTION.ipynb))
 6. [Calculating Accellerations in 2D]().  
 7. [Controlling a 2D Drone]().
 
