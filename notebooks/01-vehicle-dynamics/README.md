@@ -8,9 +8,10 @@
 1. [Coaxial Drone Dynamics](/notebooks/01-vehicle-dynamics/1-Coaxial-Drone-Dynamics.ipynb). ([solution](/notebooks/01-vehicle-dynamics/1-Coaxial-Drone-Dynamics-SOLUTION.ipynb))  
 2. [Tracking Changes to State (RECORDING)](/notebooks/01-vehicle-dynamics/1.5-Tracking-Changes-to-State-RECORDING.ipynb).
 3. [Advance State for Controlled Drone (Propellers Rotating)](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone.ipynb). ([solution](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone-SOLUTION.ipynb))
-4. [Uncontrolled Drone]().
-5. [Calculating Accellerations in 2D]().  
-6. [Controlling a 2D Drone]().
+4. [Advance State for Controlled Drone (Propellers Rotating) With State Vectors](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone-with-State-Vectors.ipynb). 
+5. [Uncontrolled Drone]().
+6. [Calculating Accellerations in 2D]().  
+7. [Controlling a 2D Drone]().
 
 **TODO:** Organize 2-5 as well as the alternative material which adopts a different convention on rotational angles and also has some more detail on the process
 
