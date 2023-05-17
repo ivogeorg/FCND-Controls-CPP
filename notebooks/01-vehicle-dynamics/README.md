@@ -6,10 +6,10 @@
 
 
 1. [Coaxial Drone Dynamics](/notebooks/01-vehicle-dynamics/1-Coaxial-Drone-Dynamics.ipynb). ([solution](/notebooks/01-vehicle-dynamics/1-Coaxial-Drone-Dynamics-SOLUTION.ipynb))  
-2. ...  
-3. ...  
-4. ...  
-5. ...  
+2. [Tracking Changes to State]().
+3. [Uncontrolled Drone]().
+4. [Calculating Accellerations in 2D]().  
+5. [Controlling a 2D Drone]().
 
 **TODO:** Organize 2-5 as well as the alternative material which adopts a different convention on rotational angles and also has some more detail on the process
 
