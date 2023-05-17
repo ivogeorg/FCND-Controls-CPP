@@ -11,8 +11,5 @@
 4. [Advance State for Controlled Drone (Propellers Rotating) With State Vectors](/notebooks/01-vehicle-dynamics/2-Advance-State-for-Controlled-Drone-with-State-Vectors.ipynb). 
 5. [Uncontrolled Drone](/notebooks/01-vehicle-dynamics/3-Uncontrolled-2D-Drone.ipynb). ([solution](/notebooks/01-vehicle-dynamics/3-Uncontrolled-2D-Drone-SOLUTION.ipynb))
 6. [Calculating Accellerations in 2D](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/01-vehicle-dynamics/4-Calculating-Accelerations-in-2D.ipynb). ([solution](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/01-vehicle-dynamics/4-Calculating-Accelerations-in-2D-SOLUTION.ipynb))  
-7. [Controlling a 2D Drone]().
-
-**TODO:** Organize 2-5 as well as the alternative material which adopts a different convention on rotational angles and also has some more detail on the process
-
+7. [Controlling a 2D Drone](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/01-vehicle-dynamics/5-Controlling-a-2D-Quad.ipynb). ([solution](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/01-vehicle-dynamics/5-Controlling-a-2D-Quad-SOLUTION.ipynb))
 
