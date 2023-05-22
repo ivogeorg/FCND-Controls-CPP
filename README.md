@@ -144,7 +144,7 @@ QuadControlParams.Mass * 9.81 / 4
 
 Therefore, if the mass doesn't match the actual mass of the quad, it'll fall down.  Take a moment to tune the `Mass` parameter in `QuadControlParams.txt` to make the vehicle more or less stay in the same spot.
 
-Note: if you want to come back to this later, this scenario is [scenario 1](#intro-scenario-1). **TODO:** Fix this link
+**Note:** if you want to come back to this later, this scenario is [scenario 1](#intro-scenario-1). 
 
 With the proper mass, your simulation should look a little like this:
 
