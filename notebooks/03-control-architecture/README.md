@@ -13,7 +13,9 @@
    > 3. The parameter sets should be at first logarithmic (e.g. {0.1, 1.0, 10.0, 100.0}), within the recommended ranges (e.g. P parameters should be within [0.0, 1.0]), to get the correct order for each parameter from a simple glance, and then focus on fine tuning a smaller sub-range.
    > 4. The `zy_flight()` function in [simulate.py](simulate.py), `plot_zy_flight_path()` function in [plotting.py](plotting.py), and `figure_8()` in [trajectories.py](trajectores.py) essentially contain everything necessary for creating a single plot in the grid.
    > The figure-8 curve is actually one of the simplest of a family of curves known as [Lissajous curves](https://en.wikipedia.org/wiki/Lissajous_curve). Write a function to parameterize the generation of the curves and test the drone on all these trajectories. May yield more data for parameter fine tuning. Here are examples:  
-   > <img src="/assets/Lissajous_relaciones.png" width="200" />  
+   > <img src="/assets/Lissajous_relaciones.png" width="200" />   
+   > 
+   > 5. Alternatively, the `simulate.py` and `figure_8` functions, with some modification, can be used in a fast loop to sort all the parameters sets by ascending trajectory error. _How to calculate trajectory error?_  
 3. ...  
 4. ...  
 5. ...  
