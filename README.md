@@ -69,6 +69,8 @@ For those of you interested in doing manual builds using `cmake`, we have provid
 
 **NOTE: This has only been tested on Ubuntu 16.04, however, these instructions should work for most linux versions.  Also note that these instructions assume knowledge of `cmake` and the required `cmake` dependencies are installed.**
 
+## For all environments
+
 1. Create a new directory for the build files:
 
 ```sh
