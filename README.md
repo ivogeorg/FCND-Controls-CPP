@@ -144,7 +144,7 @@ QuadControlParams.Mass * 9.81 / 4
 
 Therefore, if the mass doesn't match the actual mass of the quad, it'll fall down.  Take a moment to tune the `Mass` parameter in `QuadControlParams.txt` to make the vehicle more or less stay in the same spot.
 
-Note: if you want to come back to this later, this scenario is "1_Intro".
+Note: if you want to come back to this later, this scenario is [scenario 1](#intro-scenario-1). **TODO:** Fix this link
 
 With the proper mass, your simulation should look a little like this:
 
@@ -165,6 +165,10 @@ You may find it helpful to consult the [Python controller code](https://github.c
 2. **Parameter Ranges**: You can find the vehicle's control parameters in a file called `QuadControlParams.txt`. The default values for these parameters are all too small by a factor of somewhere between about 2X and 4X. So if a parameter has a starting value of 12, it will likely have a value somewhere between 24 and 48 once it's properly tuned.
 
 3. **Parameter Ratios**: In this [one-page document](https://www.overleaf.com/read/bgrkghpggnyc#/61023787/) you can find a derivation of the ratio of velocity proportional gain to position proportional gain for a critically damped double integrator system. The ratio of `kpV / kpP` should be 4.
+
+### Intro (scenario 1) ###
+
+See [Testing It Out](#testing-it-out).  
 
 ### Body rate and roll/pitch control (scenario 2) ###
 
