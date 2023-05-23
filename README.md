@@ -238,6 +238,10 @@ In this part, we will explore some of the non-idealities and robustness of a con
 <img src="animations/scenario4.gif" width="500"/>
 </p>
 
+### Fly a trajectory (scenario 5) ###
+
+It's missing but referenced in [Tracking trajectories](#tracking-trajectories) and [Performance Metrics](#performance-metrics). 
+
 
 ### Tracking trajectories ###
 
@@ -297,7 +301,7 @@ The specific performance metrics are as follows:
  - scenario 4
    - position error for all 3 quads should be less than 0.1 meters for at least 1.5 seconds
 
- - scenario 5
+ - scenario 5  **What is scenario 5?**  
    - position error of the quad should be less than 0.25 meters for at least 3 seconds
 
 ## Authors ##
