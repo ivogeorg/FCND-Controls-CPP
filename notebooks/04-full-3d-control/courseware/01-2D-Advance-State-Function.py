@@ -15,8 +15,9 @@ class Drone2D:
         self.u1 = 0.0
         self.u2 = 0.0
         self.g = 9.81
-        
-        self.X = np.array([0.0,0.0,0.0,0.0,0.0,0.0])
+
+        # state vector [z, y, phi, z_dot, y_dot, phi_dot]
+        self.X = np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
     
     # the following 3 functions are used by advance_state
     # to get the accelerations of the vehicle.
@@ -28,7 +29,7 @@ class Drone2D:
     @property
     def z_dot_dot(self):
         phi = self.X[2]
-        return self.g - self.u1*math.cos(phi)/self.m
+        return self.g - self.u1 * math.cos(phi) / self.m
     
     @property
     def phi_dot_dot(self):
@@ -36,9 +37,9 @@ class Drone2D:
     
     def advance_state(self, dt):
         
-        X_dot = np.array([self.X[3], 
-                        self.X[4],
-                        self.X[5], 
+        X_dot = np.array([self.X[3],        # z_dot
+                        self.X[4],          # y_dot
+                        self.X[5],          # phi_dot
                         self.z_dot_dot,
                         self.y_dot_dot, 
                         self.phi_dot_dot])
@@ -46,8 +47,10 @@ class Drone2D:
         
         # Change in state will be 
         self.X = self.X + X_dot * dt
+
         return self.X 
     
     def set_controls(self, u1, u2):
+        
         self.u1 = u1
         self.u2 = u2
