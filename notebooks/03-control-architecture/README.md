@@ -19,7 +19,7 @@
    > 
    > 8. Here's a [list of algebraic curves](https://en.wikipedia.org/wiki/List_of_curves) to explore for more cool flight trajectories to use for fine-tuning the flight dynamics parameters. In particular, the [Lemniscate](https://mathworld.wolfram.com/Lemniscate.html) is similar to but different from the figure-8 curve in `figure_8()`.  
    > 9. Alternatively, the `simulate.py` and `figure_8` functions, with some modification, can be used in a fast loop to sort all the parameters sets by ascending trajectory error. _How to calculate trajectory error?_  Exercise tests evaluate and visualize target-vs-actual errors!  
-3. ...  
-4. ...  
-5. ...  
+3. [Non-Linear Controller](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/03-control-architecture/3-Non-Linear-Controller.ipynb). ([solution](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/03-control-architecture/3-Non-Linear-Controller-Solution.ipynb))
+4. [Comparing Trajectory Errors of Linear and Non-Linear Controllers](https://github.com/ivogeorg/FCND-Controls-CPP/blob/main/notebooks/03-control-architecture/4-Comparing-Linear-and-Non-Linear-Trajectories.ipynb).  
+  
 
